@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'PTSans';
+  src: 
+       url('../fonts/PTSans.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PTSansNarrow';
+  src: 
+       url('../fonts/PTSansNarrow.ttf') format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSansNarrowBold';
+  src: 
+       url('../fonts/PTSansNarrowBold.ttf') format('truetype');
+  font-style: normal; 
+}
+
+
+.pt {
+	font-family: 'PTSans';
+	font-weight: 400;
+	font-style: normal;
+}
+.PTSN {
+	font-family: 'PTSansNarrow';
+
+}
+.PTSNB {
+	font-family: 'PTSansNarrowBold';
+}
+.OP-L {
+	
+	font-weight: 300;
+	font-style: normal;
+}
+.PTS-B {
+	@extend .pt;
+	font-weight: 700;
+}
+.rob {
+	font-family: 'Roboto';
+}
+.R-B {
+	
+	font-weight: 700;
+	font-style: normal;
+}
+.R-L {
+	
+	font-weight: 300;
+	font-style: normal;
+}
+body {
+	
+}

@@ -1,0 +1,26 @@
+.footer{
+	background-color: #000000;
+	div{
+		padding-top: 15px;
+
+
+		p{
+			@extend .PTSN;
+			font-size: 15px;
+			color:#fff;
+			display: inline-block;
+			line-height: 1px;
+		}
+		span{
+			color:#0074b2;
+		}
+	}
+	.ftr-img{
+		display: inline-block;
+		vertical-align: top;
+	}
+	.ftr-right{
+		margin-left: 5px;
+		display: inline-block;
+	}
+}

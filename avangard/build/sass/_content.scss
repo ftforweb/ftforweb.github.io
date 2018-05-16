@@ -1,0 +1,241 @@
+.block2{
+	background-image: url(../img/slider_bg.jpg);
+	.item{
+		text-align: center;
+		
+		h2{
+			padding-left: 70px;
+			color:#fff;
+			font-size: 32px;
+		}
+		p{
+			text-align: center;
+			color:#fff;
+			font-size: 23px;
+		}
+	
+	}
+		.my-arrow-left {
+			width: 19px;
+			height: 57px;
+			background: url(../img/arrow_left.png) top left no-repeat;
+			position: absolute;
+			left: -8.33333333%;
+			top: 50%;
+			margin-top: -23px;
+			&:hover,&:focus {
+				background-position: bottom left;
+			}
+		}
+		.my-arrow-right {
+			width: 19px;
+			height: 57px;
+			background: url(../img/arrow_right.png) top right no-repeat;
+			position: absolute;
+			right: -8.33333333%;
+			top: 50%;
+			margin-top: -23px;
+			&:hover,&:focus {
+				background-position: bottom right;
+			}
+		}
+}
+.block3{
+	background-image:url(../img/block3_bg.jpg);
+	background-size: cover;
+	background-position: center center;
+	p{
+		color:#fff;
+		@extend .PTS-B;
+		font-size: 30px;
+		display: inline-block;
+		font-style: italic;
+		line-height: 25px;
+		vertical-align: middle;
+		margin: 43px 0;
+	}
+
+	a{
+		background-repeat: no-repeat;
+		background-image: url(../img/button.png);
+		padding: 12px 44px;
+		margin-left: 30px;
+		@extend .PTSN;
+		font-size: 23px;
+		color: #fff;
+		vertical-align: middle;
+		
+		&:hover{
+			background-image: url(../img/BTN_H.png);
+			text-decoration: none;
+			
+		}
+	}
+				&:before {
+				    content: '';
+				    position: absolute;
+				    left: 50%;
+				    margin-left: -45px;
+				    border-left: 45px solid transparent;
+				    border-right: 45px solid transparent;
+				    border-top: 15px solid #2e0002;
+				    bottom: 347px;
+			}
+
+			/*&:after {
+			    content: '';
+			    position: absolute;
+			    left: 50%;
+			    margin-left: -90px;
+			    border-left: 90px solid transparent;
+			    border-right: 90px solid transparent;
+			    border-top: 23px solid #f0f0f0;
+			    bottom: -277px;
+
+			}*/
+}
+.block4{
+	background-color: #f0f0f0;
+	h2{
+		margin-top: 60px;
+		@extend .PTSN;
+		font-size: 25px;
+		color: #000000;
+		margin-bottom: 30px;
+	}
+	.itm{
+		display: inline-block;
+		vertical-align: top;
+		width:150px;
+		p{
+			text-align: center;
+			@extend .PTSN;
+			font-size: 15.5px;
+			color: #014888;
+		}
+		h3{
+			@extend .PTS-B;
+			font-size: 15.5px;
+			color: #014888;
+			text-transform: uppercase;
+		}
+	}
+	.my-width{
+		width:206px;
+	}
+	.my-width2{
+	width:180px;
+	}
+	h3{
+		margin-top: 50px;
+		@extend .PTS-B;
+		font-size: 20px;
+		color: #014888;
+	}
+	p{
+		font-family: arial;
+		font-size: 14px;
+	}
+	.link{
+		text-align: right;
+		a{
+			text-decoration: underline;
+			font-size:14px;
+			font-family: arial;
+		}
+	}
+	h4{
+		@extend .PTSN;
+		font-size: 35px;
+		color: #014888;
+		margin-top: 55px;
+	}
+				
+
+}
+
+.block5{
+	background-color: #014888;
+	.services{
+		margin-top: 50px;
+		div{
+			display: inline-block;
+			width: 159px;
+			vertical-align: top;
+			a{
+			@extend .PTSN;
+			font-size: 15.8px;
+			color:#fff;
+			text-transform: uppercase;
+			text-decoration: none;
+				&:hover{
+					@extend .PTSNB;
+				}
+			}
+			
+			
+		}
+	}
+
+	.my-btn{
+
+		a{
+			@extend .PTSN;
+			font-size: 23px;
+			color:#fff;	
+			text-decoration: none;
+			padding: 15px 15px;
+    		display: inline-block;
+    				border:solid 1px #fff;
+		text-align: center;
+		margin-top: 70px;
+		margin-bottom: 60px;
+			
+		}
+	}
+	
+}
+.modal-dialog {
+	width: 1140px;
+	.modal-content {
+		padding: 0 40px;
+	}
+	.modal-header{
+		border: none;
+			h2{
+				@extend .PTSN;
+				font-size: 35px;
+				color: #014888;
+			}
+			p{
+				font-family: arial;
+				font-size: 14px;
+				color: #353535;
+				line-height: 16px;
+				margin-bottom: 25px;
+			}
+
+		}
+	.modal-body{
+		form {
+			.form-group {
+				display: flex;
+				justify-content: space-between;
+				input {
+					width: 370px;
+					border: 1px solid #014888;
+					&.auto {
+						width: 300px;
+					}
+				}
+				label{
+					color:#014888;
+				}
+			}
+			input{
+				border: 2px solid #014888;
+			}
+		}
+	}
+}
+
