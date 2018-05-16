@@ -1,0 +1,43 @@
+* {
+	outline: none;
+}
+
+.sticky-page {
+	min-height: 100%;
+}
+.full-width {
+	width: 100%;
+}
+.overflow-body {
+	overflow: hidden;
+}
+body {
+	
+}
+.btn-danger {
+	 background-color: #f41e25;
+	 padding: 10px 35px;
+	 margin-top: 9px;
+}
+.btn{
+  border-radius:0;
+
+}
+.square {
+      width: 10px;
+      height: 10px;
+      background-color: #f41e25;
+      display: inline-block;
+      margin-top: 45px;
+    }
+.my-hr{
+  width: 80px;
+  height: 2px;
+  background-color: #f41e25; 
+  display: inline-block;
+}
+.my-flex-align{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}

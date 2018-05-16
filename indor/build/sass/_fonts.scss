@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'HelveticaNeueCyr-Roman';
+  src: url('../fonts/HelveticaNeueCyr-Roman.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VivaldiDCL';
+  src: url('../fonts/VivaldiDCL.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AvenirNextCyr';
+  src: url('../fonts/Avenir/AvenirNextCyr-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AvenirNextCyr-Medium';
+  src: url('../fonts/Avenir/AvenirNextCyr-Medium.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AvenirNextCyr-Demi';
+  src: url('../fonts/Avenir/AvenirNextCyr-Demi.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AvenirNextCyr-Bold';
+  src: url('../fonts/Avenir/AvenirNextCyr-Bold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans/OpenSansRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.ANC-R {
+  font-family: 'AvenirNextCyr';
+}
+.ANC-M {
+  font-family: 'AvenirNextCyr-Medium';
+}
+.ANC-B {
+  font-family: 'AvenirNextCyr-Bold';
+}
+.ANC-D {
+  font-family:'AvenirNextCyr-Demi';
+}
+.OS {
+  font-family: 'OpenSans';
+}
+.vivaldi {
+  font-family: 'VivaldiDCL';
+}
+.HNCR{
+  font-family:'HelveticaNeueCyr-Roman';
+}
+body {
+  
+}
