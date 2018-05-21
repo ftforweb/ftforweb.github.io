@@ -10,6 +10,18 @@
 			color:#fff;
 			display: inline-block;
 			line-height: 1px;
+			a{
+				color: #fff;
+			}
+		}
+		a{
+			@extend .PTSN;
+			color: #fff;
+			font-size: 15px;
+			padding:0 5px;
+			.fa-vk{
+				color:#0074b2;
+			}
 		}
 		span{
 			color:#0074b2;
