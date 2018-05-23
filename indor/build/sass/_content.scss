@@ -1,3 +1,4 @@
+  /*Start-index*/
   .block-3{
     background-color: #f41e25;
     div {
@@ -119,52 +120,6 @@
       font-size: 15px;
       color: #727272;
     }
-    .zatemnenie {
-      background: #3085a3;
-      cursor:pointer;
-      position: relative;
-        img {
-          width:100%;
-          height:100%;
-          opacity: 0.8;
-        }
-        .search{
-          position: absolute;
-          z-index: 2;
-          top:0;
-          left:50%;
-          background-color: #f41e25;
-          .fa-search {
-            color:#fff;
-            font-size: 20px;
-          }
-        }
-
-        .content-wrap {
-          width: 100%;
-          height: 100%;
-          opacity: 0;
-          transition: 0.3s ease-in-out;
-          .text-wrap {
-            position: absolute;
-            bottom:0;
-            z-index: 2;
-            width:100%;
-            h3 {
-              color:#fff;
-            }
-            p{
-              color: #fff;
-            }
-          }
-        }
-        &:hover {
-          .content-wrap {
-            background: rgba(0,0,0, 0.8);
-            opacity: 1;
-          }
-        }
-      }
     button {
       @extend .ANC-D;
       font-size: 16px;
@@ -240,3 +195,40 @@
       color: #727272;
     }
   }
+  /*index-END*/
+
+
+
+  /*Keys-Start*/
+  .keys-block-3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  /*Keys-End*/
+  .modal{
+    .modal-dialog{
+      width: 380px;
+      .modal-content{
+        border-radius: 0;
+        .modal-header{
+          border:none;
+          span{
+            font-size: 21px;
+            color:#000;
+          }
+        }
+        .modal-body{
+          padding: 0 30px 30px;
+          form{
+            .form-group{
+              input{
+              height: 43px;
+              border-radius: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /*Modal-Start*/

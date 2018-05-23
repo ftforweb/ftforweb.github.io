@@ -57,7 +57,7 @@
 
   a{
     background-repeat: no-repeat;
-    background-image: url(../img/button.png);
+    background-color: #702903;
     padding: 12px 44px;
     margin-left: 30px;
     @extend .PTSN;
@@ -65,11 +65,32 @@
     color: #fff;
     vertical-align: middle;
     text-decoration: none;
-    
+    position: relative;
+    border:1px solid #fff;
+    border-right: none;
     &:hover{
-      background-image: url(../img/BTN_H.png);
+      background-color:#aa5701;
       text-decoration: none;
       
+    }
+    &:before{
+      content:'';
+      position: absolute;
+      right: -41px;
+      bottom: -2px;
+      border: 28px solid transparent;
+      border-left: 13px solid #fff;
+    }
+    &:after{
+      content:'';
+      position: absolute;
+      right: -40px; 
+      bottom: -2px;
+      border: 28px solid transparent;
+      border-left: 13px solid #702903;
+    }
+    &:hover:after{
+      border-left: 13px solid #aa5701;
     }
   }
       &:after {
@@ -170,7 +191,7 @@
           text-transform: uppercase;
           text-decoration: none;
         }
-          a:hover:before{
+          a:before{
           content: '\f107';
           font-family: FontAwesome;
           font-style: normal;
@@ -181,8 +202,10 @@
           top: -25px;
           left:50%;
           transform: translateX(-50%);
+          opacity:0;
+          transition: 0.3s ease;
         }
-        a:hover:after{
+        a:after{
           content: '\f106';
           font-family: FontAwesome;
           font-style: normal;
@@ -193,6 +216,15 @@
           bottom: -25px;
           left:50%;
           transform: translateX(-50%);
+          opacity:0;
+          transition: 0.3s ease;
+        }
+        a:hover:before{
+          opacity: 1;
+          
+        }
+        a:hover:after{
+          opacity: 1;
         }
       }
     }
